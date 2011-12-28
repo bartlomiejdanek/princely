@@ -21,12 +21,10 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "init.rb",
      "lib/princely.rb",
      "lib/princely/pdf_helper.rb",
      "lib/princely/rails.rb",
-     "princely.gemspec",
-     "rails/init.rb"
+     "princely.gemspec"
   ]
   s.homepage = %q{http://github.com/mbleigh/princely}
   s.rdoc_options = ["--charset=UTF-8"]
