@@ -10,7 +10,7 @@ module PdfHelper
   def render_with_princely(options = nil, *args, &block)
     if options.is_a?(Hash) && options.has_key?(:pdf)
       options[:name] ||= options.delete(:pdf)
-      make_and_send_pdf(options.delete(:name), options)
+      princely_make_and_send_pdf(options.delete(:name), options)
     else
       render_without_princely(options, *args, &block)
     end
